@@ -1,0 +1,31 @@
+body{
+  margin: 0rem 12rem;
+  padding: 0;
+ 
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+h1,h2,h3,h4,h5,h6,p{
+  padding: 0 1rem;
+  margin: 0;
+}
+.card{
+  width: 190px;
+  height: 280px;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgb(181, 181, 181);
+}
+.card div{
+  width: 190px;
+  height: 220px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.cardMain{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-top: 4rem;
+  
+}
